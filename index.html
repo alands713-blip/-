@@ -19,11 +19,11 @@ body {
   padding: 0;
   width: 100%;
   height: 100vh;
-  overflow: hidden;
+  overflow: hidden; /* ڕێگری لە سکرۆڵکردن */
   background: #121212;
   color: #fff;
   font-family: Arial, sans-serif;
-  touch-action: none;
+  touch-action: none; /* ڕێگری لە سکرۆڵ بە دەست لە مۆبایل */
   -webkit-text-size-adjust: 85%;
   -webkit-tap-highlight-color: transparent;
   -webkit-touch-callout: none;
@@ -67,6 +67,7 @@ body {
   pointer-events: auto;
 }
 
+/* ئەنیمەیشنی لەرینەوە (Wiggle / Shaking) بۆ براوەکان */
 @keyframes wiggle {
   0%, 100% { transform: rotate(0deg); }
   25% { transform: rotate(-1deg); }
@@ -299,11 +300,11 @@ body {
 
   <!-- COUNTER 1 -->
   <div class="counter-box" id="box1" onpointerdown="increaseLeft(event)">
-    <img id="img1" class="box-img" src="images/img1.jpeg" alt="Image 1" draggable="false">
-    <video id="video1" class="box-video" src="videos/video1.mp4" autoplay loop playsinline style="display: none;"></video>
+    <img id="img1" class="box-img" src="https://files.catbox.moe/jy2d8v.jpeg" alt="Image 1" draggable="false">
+    <video id="video1" class="box-video" src="https://files.catbox.moe/swfw68.mp4" autoplay loop playsinline style="display: none;"></video>
     
     <div class="counter-number">
-      <img src="images/icon1.png" class="num-icon" alt="Rose Gift">
+      <img src="https://imgur.com/F3ucfLA.png" class="num-icon" alt="Rose Gift">
       <span id="leftCounter">0</span>
     </div>
     
@@ -317,11 +318,11 @@ body {
 
   <!-- COUNTER 2 -->
   <div class="counter-box" id="box2" onpointerdown="increaseRight(event)">
-    <img id="img2" class="box-img" src="images/img2.jpeg" alt="Image 2" draggable="false">
-    <video id="video2" class="box-video" src="videos/video2.mp4" autoplay loop playsinline style="display: none;"></video>
+    <img id="img2" class="box-img" src="https://files.catbox.moe/umuvyb.jpeg" alt="Image 2" draggable="false">
+    <video id="video2" class="box-video" src="https://files.catbox.moe/av0bac.mp4" autoplay loop playsinline style="display: none;"></video>
     
     <div class="counter-number">
-      <img src="images/icon2.png" class="num-icon" alt="Rose Gift">
+      <img src="https://imgur.com/SgT0elO.png" class="num-icon" alt="Rose Gift">
       <span id="rightCounter">0</span>
     </div>
     
@@ -335,11 +336,11 @@ body {
 
   <!-- COUNTER 3 -->
   <div class="counter-box" id="box3" onpointerdown="increase3(event)">
-    <img id="img3" class="box-img" src="images/img3.jpeg" alt="Image 3" draggable="false">
-    <video id="video3" class="box-video" src="videos/video3.mp4" autoplay loop playsinline style="display: none;"></video>
+    <img id="img3" class="box-img" src="https://files.catbox.moe/91jrjx.jpeg" alt="Image 3" draggable="false">
+    <video id="video3" class="box-video" src="https://files.catbox.moe/zh9gfs.mp4" autoplay loop playsinline style="display: none;"></video>
     
     <div class="counter-number">
-      <img src="images/icon3.png" class="num-icon" alt="Rose Gift">
+      <img src="https://imgur.com/cig4eDx.png" class="num-icon" alt="Rose Gift">
       <span id="counter3">0</span>
     </div>
     
@@ -353,11 +354,11 @@ body {
 
   <!-- COUNTER 4 -->
   <div class="counter-box" id="box4" onpointerdown="increase4(event)">
-    <img id="img4" class="box-img" src="images/img4.jpeg" alt="Image 4" draggable="false">
-    <video id="video4" class="box-video" src="videos/video4.mp4" autoplay loop playsinline style="display: none;"></video>
+    <img id="img4" class="box-img" src="https://files.catbox.moe/27afcu.jpeg" alt="Image 4" draggable="false">
+    <video id="video4" class="box-video" src="https://files.catbox.moe/sef9hp.mp4" autoplay loop playsinline style="display: none;"></video>
     
     <div class="counter-number">
-      <img src="images/icon4.png" class="num-icon" alt="Rose Gift">
+      <img src="https://imgur.com/J1wxX9o.png" class="num-icon" alt="Rose Gift">
       <span id="counter4">0</span>
     </div>
     
@@ -377,7 +378,7 @@ body {
 ========================= -->
 
 <div class="bottom-video-container">
-  <video id="bottomVideo" src="videos/bottom_video.mp4" autoplay loop playsinline></video>
+  <video id="bottomVideo" src="gggg" autoplay loop playsinline></video>
 </div>
 
 
@@ -385,10 +386,10 @@ body {
      AUDIO
 ========================= -->
 
-<audio id="happyAudio" src="audio/happy.mp3" loop preload="auto"></audio>
-<audio id="sadAudio" src="audio/sad.mp3" loop preload="auto"></audio>
-<audio id="audio3" src="audio/audio3.mp3" loop preload="auto"></audio>
-<audio id="audio4" src="audio/audio4.mp3" loop preload="auto"></audio>
+<audio id="happyAudio" src="https://files.catbox.moe/9hnssq.mp3" loop preload="auto"></audio>
+<audio id="sadAudio" src="https://mp3tourl.com/audio/1787938572405-9f2a2495-4038-4fbb-90e3-05f7d7f3439d.mp3" loop preload="auto"></audio>
+<audio id="audio3" src="https://mp3tourl.com/audio/1788085844814-7303e9a0-e35f-4e68-81f4-2749dc64dd61.mp3" loop preload="auto"></audio>
+<audio id="audio4" src="https://mp3tourl.com/audio/1788085682047-24861455-cee6-456b-b666-463b7ff582b9.mp3" loop preload="auto"></audio>
 
 
 <script>
@@ -419,6 +420,7 @@ const audio3 = document.getElementById("audio3");
 const audio4 = document.getElementById("audio4");
 const bottomVideo = document.getElementById("bottomVideo");
 
+// چالاککردنی دەنگی ڤیدیۆکەی خوارەوە بە یەکەم لێدانی دەست
 document.addEventListener("pointerdown", function enableBottomVideoAudio() {
   if (bottomVideo && !activeVideoTimer) {
     bottomVideo.muted = false;
@@ -453,6 +455,7 @@ function stopActiveVideo() {
     currentActiveBox = null;
   }
 
+  // ئاگادارکردنەوەی ڤیدیۆکەی خوارەوە: ئاسایی ببوونەوەی دەنگەکەی
   if (bottomVideo) {
     bottomVideo.muted = false;
   }
@@ -495,6 +498,7 @@ function showLeaderVideo(boxNum) {
   video.currentTime = 0;
   video.muted = false;
 
+  // بێدەنگکردنی ڤیدیۆکەی خوارەوە لە کاتی کارکردنی ڤیدیۆ ۱۰ چرکەییەکەی سەرەوە
   if (bottomVideo) {
     bottomVideo.muted = true;
   }
@@ -504,6 +508,7 @@ function showLeaderVideo(boxNum) {
 
   if (activeVideoTimer) clearTimeout(activeVideoTimer);
 
+  // پاش ۱۰ چرکە ڤیدیۆکەی سەرەوە دەوەستێت و دەنگی خوارەوە ئاسایی دەبێتەوە
   activeVideoTimer = setTimeout(function() {
     stopActiveVideo();
     checkMusic();
@@ -664,6 +669,17 @@ document.addEventListener("gesturestart", function(e) {
 document.addEventListener("touchmove", function(e) { 
   e.preventDefault(); 
 }, { passive: false });
+
+  /* =========================
+   OFFLINE CACHE REGISTRATION
+========================= */
+  if ('serviceWorker' in navigator) {
+  window.addEventListener('load', () => {
+    navigator.serviceWorker.register('./sw.js')
+      .then((reg) => console.log('Offline Ready!', reg.scope))
+      .catch((err) => console.error('Service Worker Error:', err));
+  });
+}
 
 </script>
 </body>
